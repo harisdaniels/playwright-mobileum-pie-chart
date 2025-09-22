@@ -97,8 +97,8 @@ test('Assert Pie Chart', async ({ page }) => {
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/harisdaniels/playwright-mobileum-trend
-cd playwright-mobileum-trend
+git clone https://github.com/harisdaniels/playwright-mobileum-pie-chart
+cd playwright-mobileum-pie-chart
 ```
 ### 2. Install dependencies
 ```bash
@@ -117,7 +117,7 @@ npx playwright test
 
 ### 5. Run a specific test
 ```bash
-npx playwright test tests/example.spec.ts
+npx playwright test tests/test.spec.ts
 ```
 
 ### 6. Run tests in headed mode (for debugging)
